@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak & Layanan - Nusantara Digital | SITI HUMAIRAH</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Nusantara<span>Digital</span></a>
+      
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="index.html#produk">Produk</a></li>
+          <li><a href="kontak.html" class="active">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-offset">
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title">Daftar Layanan & Estimasi Durasi</h1>
+          <p class="section-subtitle">Pilih paket layanan digital yang paling sesuai dengan kebutuhan usaha Anda.</p>
+        </div>
+
+        <div class="table-wrapper">
+          <table>
+            <caption>Tabel Rincian Paket Layanan Berlaku Mulai <time datetime="2026-11-01">1 November 2026</time></caption>
+            <thead>
+              <tr>
+                <th>Layanan</th>
+                <th>Fitur Utama</th>
+                <th>Harga</th>
+                <th>Durasi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Web Company Profile</strong></td>
+                <td>5 Halaman, Domain .com, Desain Responsif</td>
+                <td class="price-cell">Rp 1.500.000</td>
+                <td>5 - 7 Hari</td>
+              </tr>
+              <tr>
+                <td><strong>Toko Online</strong></td>
+                <td>Katalog Produk, Keranjang, WhatsApp Checkout</td>
+                <td class="price-cell">Rp 3.000.000</td>
+                <td>10 - 14 Hari</td>
+              </tr>
+              <tr>
+                <td><strong>Desain UI/UX</strong></td>
+                <td>Wireframe, Mockup & Prototipe Interaktif</td>
+                <td class="price-cell">Rp 1.200.000</td>
+                <td>4 - 6 Hari</td>
+              </tr>
+              <tr>
+                <td><strong>Sistem Informasi Custom</strong></td>
+                <td>Database Relasional, Dashboard Admin, Laporan</td>
+                <td class="price-cell">Rp 4.500.000</td>
+                <td>21 - 30 Hari</td>
+              </tr>
+              <tr class="promo-row">
+                <td colspan="3">Promo Mahasiswa / UMKM Lokal (Diskon Khusus)</td>
+                <td>Potongan 15%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Hubungi & Kunjungi Kami</h2>
+          <p class="section-subtitle">Konsultasikan kebutuhan proyek Anda melalui formulir atau datang langsung ke kantor kami.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <form action="#" method="post" class="contact-form">
+              <fieldset>
+                <legend>Formulir Konsultasi & Pemesanan</legend>
+                
+                <div class="form-group">
+                  <label for="nama">Nama Lengkap *</label>
+                  <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap Anda" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Alamat Email *</label>
+                  <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="subjek">Subjek Layanan</label>
+                  <select id="subjek" name="subjek">
+                    <option value="company-profile">Web Company Profile</option>
+                    <option value="ecommerce">Toko Online (E-Commerce)</option>
+                    <option value="uiux">Desain UI/UX</option>
+                    <option value="custom">Sistem Informasi Custom</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="pesan">Pesan *</label>
+                  <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan detail kebutuhan proyek Anda..." required></textarea>
+                </div>
+
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                  <button type="reset" class="btn btn-outline">Reset</button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+
+          <div class="contact-card map-card">
+            <h3>Lokasi Kantor</h3>
+            <p class="map-desc">Jl. Adhyaksa No. 2, Kayu Tangi, Banjarmasin / Banjarbaru, Kalimantan Selatan.</p>
+            <ul class="contact-info-list">
+              <li><strong>Jam Operasional:</strong> Senin – Sabtu, 08.00 – 17.00 WITA</li>
+              <li><strong>Email Resmi:</strong> halo@nusantaradigital.id</li>
+            </ul>
+            <div class="map-box">
+              <iframe 
+                src="https://www.openstreetmap.org/export/embed.html?bbox=114.8100%2C-3.4550%2C114.8550%2C-3.4300&layer=mapnik" 
+                title="Peta Lokasi Kantor Nusantara Digital"
+                loading="lazy">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 SITI HUMAIRAH &mdash; 2510010034 &mdash; Kelas (3B-NRBJB)</p>
+    </div>
+  </footer>
+
+</body>
+</html>
